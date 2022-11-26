@@ -1,8 +1,8 @@
 import { useState, useEffect, Suspense } from 'react';
 import { Outlet, useLocation, useParams } from 'react-router-dom';
-import { movieDetails } from 'components/api/api';
+import { movieDetails } from 'api/api';
 import { MovieCard } from './MovieCard';
-import { Section } from '../Movies.styled';
+import { Section } from '../../Pages/Movies/Movies.styled';
 import { LinkButton, LinkBtn } from './MovieDetails.styled';
 
 const MovieDetails = () => {

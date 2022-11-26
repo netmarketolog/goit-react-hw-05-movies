@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { searchMovies } from 'components/api/api';
+import { searchMovies } from 'api/api';
 import { FilmCard } from 'components/FilmCard/FilmCard';
 import { HiSearch } from 'react-icons/hi';
 import {

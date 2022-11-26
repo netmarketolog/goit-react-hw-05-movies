@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { trendingFilm } from 'components/api/api';
+import { trendingFilm } from 'api/api';
 import { FilmCard } from 'components/FilmCard/FilmCard';
 
 import { HomeList } from './Home.styled';

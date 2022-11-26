@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { movieCast } from 'components/api/api';
-import error from '../../../img/error.png';
+import { movieCast } from 'api/api';
+import error from '../../Assets/error.png';
 import { CastList, CastPhoto, CastItem } from './cast.styled';
 
 const Cast = () => {

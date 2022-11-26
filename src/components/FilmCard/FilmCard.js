@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router-dom';
-import error from '../img/error.png';
+import error from '../../Assets/error.png';
 import { StyledList, Link, Poster } from './FilmCard.styled';
 import PropTypes from 'prop-types';
 

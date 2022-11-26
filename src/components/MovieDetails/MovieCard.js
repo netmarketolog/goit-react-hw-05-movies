@@ -1,4 +1,4 @@
-import error from '../../../img/error.png';
+import error from '../../Assets/error.png';
 import { Wrap, StyleImg, Description, PosterImg } from './movieCard.styled';
 import PropTypes from 'prop-types';
 
